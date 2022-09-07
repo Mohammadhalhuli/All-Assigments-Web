@@ -1,0 +1,101 @@
+/*********************
+                        html nav body header main aside footer 
+*********************/
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+header{
+    background-color: rgb(112, 189, 118);
+    border-bottom:  solid darkblue;   
+}
+header h1{
+    margin-top: 30px;
+    padding-left: 50px;
+    font-size: 50px;
+    color: blue;
+}
+header nav{
+    margin-left: 90px;
+    border: #ad4ffa solid 4px;
+    border-radius: 25px;
+    width: 93%;
+}
+header nav  a{
+    margin-left: 10px;
+    padding-left: 80px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 900;
+   
+}
+main{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #777777;
+    margin-left: 30px;
+    /*background-color: red;*/
+}
+main h1{
+    color: #ad4ffa;
+}
+main nav {
+    
+}
+main nav li {
+    margin-top: 10px;
+    border: 3px solid black;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    padding: 10px;
+}
+main nav li a{
+    font-size: 20px;
+    font-weight: 900;
+}
+aside{
+    border: 7px solid black;
+    padding: 20px;
+    border-radius: 0 25px;
+    background-color: rgb(228, 241, 227);
+    margin: 4em;
+}
+aside a:visited{
+    color: red;
+  }
+footer{
+    padding: 20px;
+    width: 94%;
+    margin-left: 50px;
+    border-top: 4px solid blue;
+    background-color: aqua;
+    border-radius: 0 25px;
+    font-size: body-small;
+    text-align: center;
+}
+section{
+    margin-left: 20px;
+}
+#name figcaption{
+    padding-left: 30px;
+    color: #ad4ffa;
+}
+#name figcaption figcaption{
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 900;
+}
+.projects li{
+    font-size: 15px;
+}
+#photo div{
+    margin-left: 50px;
+}
+#photo img{
+    width: 500px;
+    
+}
+
+
+

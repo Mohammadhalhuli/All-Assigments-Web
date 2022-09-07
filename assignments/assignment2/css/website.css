@@ -1,0 +1,102 @@
+/************************************************************************
+Home page in ass
+************************************************************************/
+/*
+.headernav{
+    width: 99.2%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7777;
+}
+.headernav h1{
+    padding-left: 30px;
+    color: #2D93AD;
+}
+ul {
+    list-style-type: none;
+    margin-right: 800px;
+    padding: 0;
+    display: flex;
+    background-color: aqua;
+  }
+
+.headernav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    padding-left: 1.2px;
+    font-size: 30px;
+    font-weight: 700;
+}*/
+/************************************************************************/
+/************************************************************************/
+/********
+ul li img p h1-h6 ...ets 
+
+********/
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+    color: #219e47;
+    font-size: 30px;
+    font-weight: 900;
+}
+img{
+    border-radius: 25px 0;
+}
+
+a,li,ul,ol{
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  list-style: none;
+    list-style-type: square;
+}
+p{
+    border: #074b1b solid 7px;
+    border-radius: 0 25px;
+    text-align: center;
+    padding: 20px;
+    font-size: 2.3em;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.backpage{
+    margin-left: 10px;
+    background-color: #dee28b;
+    max-width: 60px;
+    padding: 30px;
+    border-radius: 20px;
+}
+.email,.phone{
+    font-size: 40px;
+    margin-left: 30px;
+    color: red;
+}
+.email:hover{
+    color: #074b1b;
+}
+.phone:hover{
+    color: #074b1b;
+}
+
+a[href^="mailto"]{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/23/Font_Awesome_5_solid_envelope-square.svg");
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 20px;
+}
+a[href^="tel"]{
+    background-image: url("https://i.pinimg.com/564x/3d/63/ff/3d63ff2d7e69e2365fc31f08cd084de5.jpg");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: left;
+    padding-left: 20px;
+  }
+  figcaption{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #ad4ffa;
+}
